@@ -18,6 +18,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.editorconfig
 
 # Visual Studio Code
 .vscode/*
@@ -29,12 +30,17 @@ yarn-error.log
 
 # Miscellaneous
 /.angular/cache
+.angular/
 .sass-cache/
-/connect.lock
+.styled-components-cache/
+.connect.lock
 /coverage
 /libpeerconnection.log
 testem.log
 /typings
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock
 
 # System files
 .DS_Store
