@@ -1,0 +1,13 @@
+<div class="sendMessageComponent">
+  <p>⬇ ︎Your temporary notes ⬇︎ </p>
+    <input class="sendMessageComponent_input" type="text"
+           placeholder="Type your note here"
+           [(ngModel)]="messageToSend"
+            (keyup.enter)="sendMessage()" />
+
+    <button class="sendMessageComponent_sendMessageButton"
+            (click)="sendMessage()">➤
+    </button>
+</div>
+
+
